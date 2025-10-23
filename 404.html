@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=/Portfolio/" />
+    <script type="text/javascript">
+      // GitHub Pages redirect fix for React Router / Vite SPA
+      const segment = window.location.pathname.split('/')[2];
+      if (segment) {
+        window.location.replace('/Portfolio/' + segment);
+      } else {
+        window.location.replace('/Portfolio/');
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
