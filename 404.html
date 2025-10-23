@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=/Portfolio/" />
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
     <script type="text/javascript">
-      // GitHub Pages redirect fix for React Router / Vite SPA
-      const segment = window.location.pathname.split('/')[2];
-      if (segment) {
-        window.location.replace('/Portfolio/' + segment);
-      } else {
-        window.location.replace('/Portfolio/');
-      }
+      // Redirect all 404s to index.html (single page app routing)
+      const redirectTo = window.location.protocol + "//" + window.location.host + "/Portfolio/";
+      window.location.replace(redirectTo);
     </script>
+    <meta http-equiv="refresh" content="0; url=/Portfolio/">
   </head>
-  <body></body>
+  <body>
+    Redirecting...
+  </body>
 </html>
