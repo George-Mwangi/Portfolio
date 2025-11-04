@@ -51,18 +51,18 @@
     "Security Systems & Firewalls",
     "Weighbridge Systems"
   ],
-  "education": [
-    {
-      "institution": "CodeBrave",
-      "qualification": "Cyber Security",
-      "year": "2021"
-    },
-    {
-      "institution": "Chuka University",
-      "qualification": "Diploma in Computer Science",
-      "year": "2018 - 2020"
-    }
-  ],
+  // "education": [
+  //   {
+  //     "institution": "CodeBrave",
+  //     "qualification": "Cyber Security",
+  //     "year": "2021"
+  //   },
+  //   {
+  //     "institution": "Chuka University",
+  //     "qualification": "Diploma in Computer Science",
+  //     "year": "2018 - 2020"
+  //   }
+  // ],
   "projects": [
     {
       "title": "Online Database (Knack & AppSheet)",
